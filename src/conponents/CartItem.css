@@ -1,5 +1,70 @@
-.cartItems{
-    background-color: white;
-    flex: 0.7;
-    text-align: left;
-    }
+.CartItem{
+ display: flex;
+ flex-direction: row;
+ margin: 10px 15px 10px 15px;
+ border-bottom: 2px solid #DDDDDD ;
+ border-top: 2px solid #DDDDDD ;
+padding-top: 10px;
+padding-bottom: 10px;
+}
+.CartItem-image{
+    flex: 0.15;
+    
+}
+.CartItem-image img{
+    width: 150px;
+}
+.CartItem-info{
+    flex: 0.75;
+    margin-left: 10px;
+}
+.CartItem-info h2{
+    margin: 0;
+    font-size: 18px;
+    color: #007185;
+    
+}
+.CartItem-price{
+    flex: 0.1;
+    font-size: 18px;
+    font-weight: 700;
+
+}
+.item-actions{
+display: flex;
+flex-direction: row;
+align-items: center;
+margin-top: 4px;
+}
+.info-stock{
+    
+    color: #007600;
+    margin-top: 4px;
+}
+.item-quantity{
+    margin-right: 3px;
+}
+.item-quantity select{
+    background-color: #f0f2f2;
+    border-radius: 7px;
+ padding: 7px;
+ box-shadow: 0px 2px 5px 0px rgba(15,17,17,9.15);
+}
+.item-quantity select:focus{
+    outline: none;
+}
+.action-divider{
+    margin-left: 8px;
+    margin-right: 8px;
+    color: #DDDDDD;
+    font-weight: bold;
+}
+.item-delete{
+    font-size: 16px;
+    color: #007185;
+    cursor: pointer;
+}
+.item-delete:hover{
+    text-decoration: underline;
+}
+
