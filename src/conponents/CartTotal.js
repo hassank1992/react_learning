@@ -1,6 +1,6 @@
 import "./CartTotal.css"
 function CartTotal(){
-    return( <div className='cartTotal'>cart total</div>)
+    return( <div className='cartTotal'></div>)
    
 
 }
