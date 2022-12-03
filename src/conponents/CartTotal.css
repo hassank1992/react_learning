@@ -1,5 +1,23 @@
 .cartTotal{
+  padding: 20px 10px 10px 10px;
     margin-left: 14px;
     background-color: white;
     flex: 0.3;
+    height: 200px;
+    text-align: left;
+  }
+  .cartTotal button{
+    width: 100%;
+    font-size: 16px;
+    padding: 4px 8px;
+    background-color: #f0c14b;
+    border: 2px solid #a88734;
+    cursor: pointer;
+    margin-top: 20px;
+  }
+  .cartTotal button:hover{
+    border-color: #ddb347;
+  }
+  .cartTotal span{
+    margin-top:20px ;
   }
